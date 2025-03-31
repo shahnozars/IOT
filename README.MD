@@ -8,7 +8,11 @@ python3 -m venv ./venv/ ;
 source ./venv/bin/activate ;
 pip install -r requirements.txt ;
 ```
-3. Запустите 
+3. Запустите симулятор
 ```sh
 python3 main.py
+```
+4. Запустите mqtt (в отдельной сессии)
+```sh
+python3 mqttProcessor.py
 ```
